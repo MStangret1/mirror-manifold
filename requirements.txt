@@ -1,4 +1,4 @@
-# Core dependencies for the mirror-manifold analysis pipeline.
+﻿# Core dependencies for the mirror-manifold analysis pipeline.
 # Versions below are the ones the pipeline was last run and verified against
 # (Python 3.13). Loosen the pins if you need to.
 
@@ -10,6 +10,6 @@ statsmodels>=0.14,<0.15
 h5py>=3.15,<4
 matplotlib>=3.10,<4
 
-# Optional: real dPCA (demixed PCA). If not installed, pipeline/09_dpca_analysis.py
+# Optional: real dPCA (demixed PCA). If not installed, pipeline/06_dpca_analysis.py
 # falls back to an internal demixing routine and records dpca_available=False.
 # dPCA>=1.0.5

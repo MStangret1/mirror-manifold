@@ -37,3 +37,6 @@ desktop.ini
 
 # --- Local tool state ---
 .claude/
+
+# --- Internal migration/audit log (not for public repo) ---
+REPO_AUDIT_REPORT.md

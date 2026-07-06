@@ -243,8 +243,9 @@ def fig3_prepost(df: pd.DataFrame, out: Path) -> None:
         col   = AREA_COLORS[area]
 
         # Paired lines (light gray)
-        jx_pre  = _strip_jitter(n, center=0.0, width=0.10, seed=hash(area) % 99)
-        jx_post = _strip_jitter(n, center=1.0, width=0.10, seed=hash(area) % 99 + 1)
+        area_seed = {"AIP": 1, "F5": 2, "F6": 3}.get(str(area), 0)
+        jx_pre  = _strip_jitter(n, center=0.0, width=0.10, seed=area_seed)
+        jx_post = _strip_jitter(n, center=1.0, width=0.10, seed=area_seed + 1)
         for xp, xq, vp, vq in zip(jx_pre, jx_post, pre, post):
             ax.plot([xp, xq], [vp, vq], color=col, alpha=0.22, lw=0.9, zorder=2)
 

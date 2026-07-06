@@ -596,8 +596,9 @@ def plotD(res: Path, out: Path) -> None:
         null_lo = sp_a["null_delta_ci95_low"].mean()
         null_hi = sp_a["null_delta_ci95_high"].mean()
 
-        jx_pre  = _jitter(n, center=0.0, width=0.10, seed=hash(area) % 99)
-        jx_post = _jitter(n, center=1.0, width=0.10, seed=hash(area) % 99 + 1)
+        area_seed = {"AIP": 1, "F5": 2, "F6": 3}.get(str(area), 0)
+        jx_pre  = _jitter(n, center=0.0, width=0.10, seed=area_seed)
+        jx_post = _jitter(n, center=1.0, width=0.10, seed=area_seed + 1)
 
         for xp, xq, vp, vq in zip(jx_pre, jx_post, pre, post):
             going_up = vq > vp

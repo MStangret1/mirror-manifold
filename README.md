@@ -26,13 +26,28 @@ mirror-manifold/
 ├── CITATION.cff
 ├── requirements.txt
 ├── .gitignore
-├── run_all.py                 # conservative pipeline driver
-├── src/                       # reusable functions (I/O, decoding, dPCA, paths)
-├── pipeline/                  # numbered analysis scripts (00–12)
-├── figures/                   # figure-generation scripts
-├── results/                   # small derived CSV result tables (committed)
-└── data/                      # data instructions only (raw data NOT committed)
-    └── README.md
+├── run_all.py                    # conservative pipeline driver
+├── _compute_numeric_summary.py   # rebuilds results/repo_numeric_summary.csv
+├── FIGURE_PIPELINE_MAP.md        # script -> input CSV -> output figure map
+├── NUMERIC_CONSISTENCY_REPORT.md # key numbers, recomputed from results/
+├── src/                          # reusable functions (I/O, decoding, dPCA, paths)
+├── pipeline/                     # numbered analysis scripts (00–11)
+│   ├── 00_inventory.py
+│   ├── 01_batch_session_object_analysis.py
+│   ├── 02_batch_time_resolved.py
+│   ├── 03_object_generalization.py
+│   ├── 04_meta_summary.py
+│   ├── 05_mixed_effects.py
+│   ├── 06_dpca_analysis.py
+│   ├── 07_shuffle_null_model.py
+│   ├── 08_divergence_onset.py
+│   ├── 09_cross_event_generalization.py
+│   ├── 10_neuron_count_sensitivity.py
+│   └── 11_supplementary_stats.py
+├── figures/                      # figure-generation scripts (figures/fig_*.py)
+├── results/                      # small derived CSV result tables (committed)
+└── data/
+    └── README.md                 # data instructions only (raw data NOT committed)
 ```
 
 ## Data availability
@@ -69,11 +84,15 @@ pip install -r requirements.txt
 ```
 
 `dPCA` is optional; if it is not installed, the dPCA step falls back to an
-internal demixing routine (and records `dpca_available=False`).
+internal demixing routine (and records `dpca_available=False`). The dPCA
+variance-share tables shipped under `results/` were generated with the package
+absent (fallback demixing, `dpca_available=False` for all rows). Treat them as
+fallback marginalized-variance outputs, not package-based dPCA results, unless
+you rerun step 06 (`pipeline/06_dpca_analysis.py`) with `dPCA` installed.
 
 ## Reproducing the analysis
 
-`run_all.py` is the blessed entry point — it puts `src/` on `PYTHONPATH` and
+`run_all.py` is the recommended entry point — it puts `src/` on `PYTHONPATH` and
 sets `DATA_ROOT` for you. If you call a script **directly**, add `src/` to the
 path first (`export PYTHONPATH=src` / PowerShell `$env:PYTHONPATH="src"`), and
 run from the repo root.
@@ -118,6 +137,8 @@ A human-readable digest of the key numbers is in
 figures are written to `figures/generated/` (git-ignored).
 
 ## Citation
+
+Repository: https://github.com/MStangret1/mirror-manifold
 
 If you use this code, please cite it via [`CITATION.cff`](CITATION.cff), and cite
 the Tili et al. (2025) dataset separately.

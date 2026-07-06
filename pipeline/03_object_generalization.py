@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import os
+from pathlib import Path
 import pandas as pd
 
 from core_utils import ensure_dir, build_tensor, load_inventory, object_generalization_matrix
@@ -12,10 +13,11 @@ OBJECTS = ("Object1", "Object2", "Object3")
 
 
 def main():
+    _results = Path(__file__).resolve().parent.parent / "results"
     ap = argparse.ArgumentParser(description="Train/test across objects for OBS Go vs OBS No-Go.")
     ap.add_argument("--base-dir", required=True)
-    ap.add_argument("--go-nogo-dir", required=True)
-    ap.add_argument("--out-dir", required=True)
+    ap.add_argument("--go-nogo-dir", default=str(_results))
+    ap.add_argument("--out-dir", default=str(_results))
     ap.add_argument("--min-neurons", type=int, default=3)
     args = ap.parse_args()
 

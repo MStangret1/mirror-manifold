@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import os
+from pathlib import Path
 import pandas as pd
 
 from core_utils import (
@@ -15,10 +16,11 @@ from core_utils import (
 
 
 def main():
+    _results = Path(__file__).resolve().parent.parent / "results"
     ap = argparse.ArgumentParser(description="Time-resolved decoding across all session/object/event units.")
     ap.add_argument("--base-dir", required=True)
-    ap.add_argument("--go-nogo-dir", required=True)
-    ap.add_argument("--out-dir", required=True)
+    ap.add_argument("--go-nogo-dir", default=str(_results))
+    ap.add_argument("--out-dir", default=str(_results))
     ap.add_argument("--min-neurons", type=int, default=3)
     ap.add_argument("--window-bins", type=int, default=5)
     ap.add_argument("--step-bins", type=int, default=1)

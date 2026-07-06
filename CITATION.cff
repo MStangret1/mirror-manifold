@@ -27,4 +27,5 @@ references:
     authors:
       - family-names: "Tili"
     year: 2025
+    doi: "10.1038/s41597-025-05299-9"
     notes: "Public dataset used as input; not redistributed in this repository."

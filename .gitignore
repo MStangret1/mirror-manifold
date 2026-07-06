@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# --- Raw data (never commit) ---
+data/raw/
+*.h5
+*.hdf5
+*.zip
+
+# --- Large binary / intermediate artefacts ---
+*.pkl
+*.npy
+*.spydata
+
+# --- Generated figures (regenerable from results/) ---
+figures/generated/
+
+# --- Very large derived tables (regenerable; keep out of git) ---
+results/**/dpca_component_trajectories_long.csv
+
+# --- Raw inventory scans (regenerable; historically embedded absolute paths) ---
+results/inventory_events_raw.csv
+results/inventory_spikes_raw.csv
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# --- Local tool state ---
+.claude/

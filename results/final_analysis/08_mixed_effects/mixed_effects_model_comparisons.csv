@@ -1,0 +1,4 @@
+outcome,full_formula,reduced_formula,full_optimizer,reduced_optimizer,full_error,reduced_error,lr_stat,df_diff,p_event_family
+delta_auc,"delta_auc ~ C(event, Treatment('Event1')) * C(area, Treatment('AIP')) + log_n_neurons","delta_auc ~ C(area, Treatment('AIP')) + log_n_neurons",bfgs,bfgs,,,35.04411958656101,3,1.1923808560035198e-07
+auc_post_logit,"auc_post_logit ~ C(event, Treatment('Event1')) * C(area, Treatment('AIP')) + log_n_neurons","auc_post_logit ~ C(area, Treatment('AIP')) + log_n_neurons",bfgs,bfgs,,,53.425084836760334,3,1.4880416993349138e-11
+auc_full_logit,"auc_full_logit ~ C(event, Treatment('Event1')) * C(area, Treatment('AIP')) + log_n_neurons","auc_full_logit ~ C(area, Treatment('AIP')) + log_n_neurons",lbfgs,bfgs,,,51.435061544185146,3,3.951828046161697e-11

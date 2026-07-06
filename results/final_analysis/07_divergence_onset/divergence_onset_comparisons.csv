@@ -1,0 +1,4 @@
+area,comparison,n_event1,n_event3,U,p_event3_earlier,median_event1_ms,median_event3_ms
+AIP,Event3_vs_Event1,0,2,,,,
+F5,Event3_vs_Event1,1,18,,,,
+F6,Event3_vs_Event1,1,6,,,,

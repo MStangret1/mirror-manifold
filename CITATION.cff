@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Neural Manifold Analysis of Mirror Neuron Dynamics"
+abstract: >-
+  Analysis code for a bachelor thesis studying decision-related
+  (Go vs No-Go) population dynamics in monkey frontal and parietal
+  cortex (areas AIP, F5, F6) during observation, using neural
+  manifold and decoding methods.
+type: software
+authors:
+  - family-names: "Stangret"
+    given-names: "Maria"
+version: "0.1.0"
+date-released: "2026-07-02"
+license: MIT
+url: "https://github.com/MStangret1/mirror-manifold"
+repository-code: "https://github.com/MStangret1/mirror-manifold"
+keywords:
+  - neural manifolds
+  - mirror neurons
+  - population decoding
+  - dimensionality reduction
+  - macaque
+references:
+  - type: data
+    title: "Mirror Neurons in Monkey Frontal and Parietal Areas"
+    authors:
+      - family-names: "Tili"
+    year: 2025
+    notes: "Public dataset used as input; not redistributed in this repository."

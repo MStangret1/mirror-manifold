@@ -1,0 +1,4 @@
+model,outcome,source_metric,formula,model_type,optimizer,converged,llf,aic,bic,n_obs,n_groups,error
+delta_auc_full,delta_auc,delta_auc,"delta_auc ~ C(event, Treatment('Event1')) * C(area, Treatment('AIP')) + log_n_neurons",MixedLM,bfgs,True,13.933635743438913,,,204,23,
+auc_post_logit_full,auc_post_logit,dec_obs_go_nogo_auc_post,"auc_post_logit ~ C(event, Treatment('Event1')) * C(area, Treatment('AIP')) + log_n_neurons",MixedLM,bfgs,True,-348.13588901330934,,,204,23,
+auc_full_logit_full,auc_full_logit,dec_obs_go_nogo_auc_full,"auc_full_logit ~ C(event, Treatment('Event1')) * C(area, Treatment('AIP')) + log_n_neurons",MixedLM,bfgs,True,-237.2337406265707,,,204,23,

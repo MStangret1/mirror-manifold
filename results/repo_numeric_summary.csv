@@ -1,0 +1,138 @@
+metric,group,value,n,source
+n_analysis_units,overall,204.0,204,go-nogo/reworked_results/session_object_event_results.csv
+mean_dec_obs_go_nogo_auc_full,overall,0.604657,204,go-nogo/reworked_results/session_object_event_results.csv
+mean_dec_obs_go_nogo_auc_pre,overall,0.534685,204,go-nogo/reworked_results/session_object_event_results.csv
+mean_dec_obs_go_nogo_auc_post,overall,0.64467,204,go-nogo/reworked_results/session_object_event_results.csv
+mean_dec_exe_obs_auc_full,overall,0.945522,204,go-nogo/reworked_results/session_object_event_results.csv
+mean_auc_pre,event=Event1,0.512584,102,go-nogo/reworked_results/session_object_event_results.csv
+mean_auc_post,event=Event1,0.538377,102,go-nogo/reworked_results/session_object_event_results.csv
+mean_auc_pre,event=Event3,0.556786,102,go-nogo/reworked_results/session_object_event_results.csv
+mean_auc_post,event=Event3,0.750964,102,go-nogo/reworked_results/session_object_event_results.csv
+mean_auc_pre,"area=AIP,event=Event1",0.533194,12,go-nogo/reworked_results/session_object_event_results.csv
+mean_auc_post,"area=AIP,event=Event1",0.474722,12,go-nogo/reworked_results/session_object_event_results.csv
+mean_auc_pre,"area=AIP,event=Event3",0.545972,12,go-nogo/reworked_results/session_object_event_results.csv
+mean_auc_post,"area=AIP,event=Event3",0.73125,12,go-nogo/reworked_results/session_object_event_results.csv
+mean_auc_pre,"area=F5,event=Event1",0.515185,51,go-nogo/reworked_results/session_object_event_results.csv
+mean_auc_post,"area=F5,event=Event1",0.516688,51,go-nogo/reworked_results/session_object_event_results.csv
+mean_auc_pre,"area=F5,event=Event3",0.55512,51,go-nogo/reworked_results/session_object_event_results.csv
+mean_auc_post,"area=F5,event=Event3",0.769641,51,go-nogo/reworked_results/session_object_event_results.csv
+mean_auc_pre,"area=F6,event=Event1",0.502842,39,go-nogo/reworked_results/session_object_event_results.csv
+mean_auc_post,"area=F6,event=Event1",0.586325,39,go-nogo/reworked_results/session_object_event_results.csv
+mean_auc_pre,"area=F6,event=Event3",0.562293,39,go-nogo/reworked_results/session_object_event_results.csv
+mean_auc_post,"area=F6,event=Event3",0.732607,39,go-nogo/reworked_results/session_object_event_results.csv
+n_units,area=AIP,24.0,24,go-nogo/reworked_results/session_object_event_results.csv
+n_units,area=F5,102.0,102,go-nogo/reworked_results/session_object_event_results.csv
+n_units,area=F6,78.0,78,go-nogo/reworked_results/session_object_event_results.csv
+n_perm_tests_with_p,overall,204.0,204,go-nogo/reworked_results/session_object_event_results.csv
+n_perm_sig_p<0.05,overall,47.0,204,go-nogo/reworked_results/session_object_event_results.csv
+frac_perm_sig_p<0.05,overall,0.230392,204,go-nogo/reworked_results/session_object_event_results.csv
+n_perm_sig_p<0.01,overall,29.0,204,go-nogo/reworked_results/session_object_event_results.csv
+frac_perm_sig_p<0.01,overall,0.142157,204,go-nogo/reworked_results/session_object_event_results.csv
+n_perm_sig_p<0.05,area=AIP,6.0,24,go-nogo/reworked_results/session_object_event_results.csv
+n_perm_sig_p<0.05,area=F5,26.0,102,go-nogo/reworked_results/session_object_event_results.csv
+n_perm_sig_p<0.05,area=F6,15.0,78,go-nogo/reworked_results/session_object_event_results.csv
+time_resolved_peak_auc,"area=AIP,event=Event1",0.563958,552,go-nogo/reworked_results/time_resolved_results.csv
+time_resolved_peak_time_s,"area=AIP,event=Event1",0.15,,go-nogo/reworked_results/time_resolved_results.csv
+time_resolved_peak_auc,"area=AIP,event=Event3",0.794514,792,go-nogo/reworked_results/time_resolved_results.csv
+time_resolved_peak_time_s,"area=AIP,event=Event3",0.55,,go-nogo/reworked_results/time_resolved_results.csv
+time_resolved_peak_auc,"area=F5,event=Event1",0.55134,2346,go-nogo/reworked_results/time_resolved_results.csv
+time_resolved_peak_time_s,"area=F5,event=Event1",0.69,,go-nogo/reworked_results/time_resolved_results.csv
+time_resolved_peak_auc,"area=F5,event=Event3",0.763257,3366,go-nogo/reworked_results/time_resolved_results.csv
+time_resolved_peak_time_s,"area=F5,event=Event3",0.55,,go-nogo/reworked_results/time_resolved_results.csv
+time_resolved_peak_auc,"area=F6,event=Event1",0.574573,1794,go-nogo/reworked_results/time_resolved_results.csv
+time_resolved_peak_time_s,"area=F6,event=Event1",0.51,,go-nogo/reworked_results/time_resolved_results.csv
+time_resolved_peak_auc,"area=F6,event=Event3",0.718027,2574,go-nogo/reworked_results/time_resolved_results.csv
+time_resolved_peak_time_s,"area=F6,event=Event3",0.51,,go-nogo/reworked_results/time_resolved_results.csv
+divergence_onset_ms_median,"area=AIP,event=Event1",,12,go-nogo/reworked_results/final_analysis/07_divergence_onset/divergence_onset_summary.csv
+divergence_onset_ms_mean,"area=AIP,event=Event1",,12,go-nogo/reworked_results/final_analysis/07_divergence_onset/divergence_onset_summary.csv
+divergence_n_onset_found,"area=AIP,event=Event1",0.0,12,go-nogo/reworked_results/final_analysis/07_divergence_onset/divergence_onset_summary.csv
+divergence_onset_ms_median,"area=AIP,event=Event3",450.0,12,go-nogo/reworked_results/final_analysis/07_divergence_onset/divergence_onset_summary.csv
+divergence_onset_ms_mean,"area=AIP,event=Event3",450.0,12,go-nogo/reworked_results/final_analysis/07_divergence_onset/divergence_onset_summary.csv
+divergence_n_onset_found,"area=AIP,event=Event3",2.0,12,go-nogo/reworked_results/final_analysis/07_divergence_onset/divergence_onset_summary.csv
+divergence_onset_ms_median,"area=F5,event=Event1",10.0,51,go-nogo/reworked_results/final_analysis/07_divergence_onset/divergence_onset_summary.csv
+divergence_onset_ms_mean,"area=F5,event=Event1",10.0,51,go-nogo/reworked_results/final_analysis/07_divergence_onset/divergence_onset_summary.csv
+divergence_n_onset_found,"area=F5,event=Event1",1.0,51,go-nogo/reworked_results/final_analysis/07_divergence_onset/divergence_onset_summary.csv
+divergence_onset_ms_median,"area=F5,event=Event3",340.0,51,go-nogo/reworked_results/final_analysis/07_divergence_onset/divergence_onset_summary.csv
+divergence_onset_ms_mean,"area=F5,event=Event3",345.555556,51,go-nogo/reworked_results/final_analysis/07_divergence_onset/divergence_onset_summary.csv
+divergence_n_onset_found,"area=F5,event=Event3",18.0,51,go-nogo/reworked_results/final_analysis/07_divergence_onset/divergence_onset_summary.csv
+divergence_onset_ms_median,"area=F6,event=Event1",270.0,39,go-nogo/reworked_results/final_analysis/07_divergence_onset/divergence_onset_summary.csv
+divergence_onset_ms_mean,"area=F6,event=Event1",270.0,39,go-nogo/reworked_results/final_analysis/07_divergence_onset/divergence_onset_summary.csv
+divergence_n_onset_found,"area=F6,event=Event1",1.0,39,go-nogo/reworked_results/final_analysis/07_divergence_onset/divergence_onset_summary.csv
+divergence_onset_ms_median,"area=F6,event=Event3",440.0,39,go-nogo/reworked_results/final_analysis/07_divergence_onset/divergence_onset_summary.csv
+divergence_onset_ms_mean,"area=F6,event=Event3",393.333333,39,go-nogo/reworked_results/final_analysis/07_divergence_onset/divergence_onset_summary.csv
+divergence_n_onset_found,"area=F6,event=Event3",6.0,39,go-nogo/reworked_results/final_analysis/07_divergence_onset/divergence_onset_summary.csv
+mean_auc_same_object,overall,0.604657,204,go-nogo/reworked_results/object_generalization_results.csv
+mean_auc_cross_object,overall,0.605291,408,go-nogo/reworked_results/object_generalization_results.csv
+mean_auc_same_object,event=Event1,0.532914,102,go-nogo/reworked_results/object_generalization_results.csv
+mean_auc_cross_object,event=Event1,0.518703,204,go-nogo/reworked_results/object_generalization_results.csv
+mean_auc_same_object,event=Event3,0.6764,102,go-nogo/reworked_results/object_generalization_results.csv
+mean_auc_cross_object,event=Event3,0.691879,204,go-nogo/reworked_results/object_generalization_results.csv
+auc_within_Event1_mean,area=AIP,0.499861,12,go-nogo/reworked_results/final_analysis/10_cross_event_generalization/cross_event_generalization_summary.csv
+auc_within_Event3_mean,area=AIP,0.683472,12,go-nogo/reworked_results/final_analysis/10_cross_event_generalization/cross_event_generalization_summary.csv
+auc_Event1_to_Event3_mean,area=AIP,0.537361,12,go-nogo/reworked_results/final_analysis/10_cross_event_generalization/cross_event_generalization_summary.csv
+auc_Event3_to_Event1_mean,area=AIP,0.49625,12,go-nogo/reworked_results/final_analysis/10_cross_event_generalization/cross_event_generalization_summary.csv
+gti_mean,area=AIP,0.016806,12,go-nogo/reworked_results/final_analysis/10_cross_event_generalization/cross_event_generalization_summary.csv
+auc_within_Event1_mean,area=F5,0.521525,51,go-nogo/reworked_results/final_analysis/10_cross_event_generalization/cross_event_generalization_summary.csv
+auc_within_Event3_mean,area=F5,0.688736,51,go-nogo/reworked_results/final_analysis/10_cross_event_generalization/cross_event_generalization_summary.csv
+auc_Event1_to_Event3_mean,area=F5,0.529858,51,go-nogo/reworked_results/final_analysis/10_cross_event_generalization/cross_event_generalization_summary.csv
+auc_Event3_to_Event1_mean,area=F5,0.503813,51,go-nogo/reworked_results/final_analysis/10_cross_event_generalization/cross_event_generalization_summary.csv
+gti_mean,area=F5,0.016836,51,go-nogo/reworked_results/final_analysis/10_cross_event_generalization/cross_event_generalization_summary.csv
+auc_within_Event1_mean,area=F6,0.553248,39,go-nogo/reworked_results/final_analysis/10_cross_event_generalization/cross_event_generalization_summary.csv
+auc_within_Event3_mean,area=F6,0.657778,39,go-nogo/reworked_results/final_analysis/10_cross_event_generalization/cross_event_generalization_summary.csv
+auc_Event1_to_Event3_mean,area=F6,0.523732,39,go-nogo/reworked_results/final_analysis/10_cross_event_generalization/cross_event_generalization_summary.csv
+auc_Event3_to_Event1_mean,area=F6,0.53859,39,go-nogo/reworked_results/final_analysis/10_cross_event_generalization/cross_event_generalization_summary.csv
+gti_mean,area=F6,0.031161,39,go-nogo/reworked_results/final_analysis/10_cross_event_generalization/cross_event_generalization_summary.csv
+dpca_var_time,"area=AIP,event=Event1",0.361272,4,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision,"area=AIP,event=Event1",0.004133,4,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_object,"area=AIP,event=Event1",0.006185,4,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision x time,"area=AIP,event=Event1",0.124824,4,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_object x time,"area=AIP,event=Event1",0.243546,4,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision x object,"area=AIP,event=Event1",0.010401,4,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision x object x time,"area=AIP,event=Event1",0.24964,4,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_time,"area=AIP,event=Event3",0.195561,4,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision,"area=AIP,event=Event3",0.010659,4,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_object,"area=AIP,event=Event3",0.012296,4,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision x time,"area=AIP,event=Event3",0.170768,4,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_object x time,"area=AIP,event=Event3",0.296381,4,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision x object,"area=AIP,event=Event3",0.01575,4,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision x object x time,"area=AIP,event=Event3",0.298585,4,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_time,"area=F5,event=Event1",0.275853,17,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision,"area=F5,event=Event1",0.007206,17,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_object,"area=F5,event=Event1",0.011602,17,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision x time,"area=F5,event=Event1",0.138959,17,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_object x time,"area=F5,event=Event1",0.278101,17,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision x object,"area=F5,event=Event1",0.015459,17,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision x object x time,"area=F5,event=Event1",0.27282,17,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_time,"area=F5,event=Event3",0.26824,17,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision,"area=F5,event=Event3",0.038949,17,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_object,"area=F5,event=Event3",0.010057,17,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision x time,"area=F5,event=Event3",0.179926,17,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_object x time,"area=F5,event=Event3",0.251878,17,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision x object,"area=F5,event=Event3",0.011522,17,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision x object x time,"area=F5,event=Event3",0.23943,17,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_time,"area=F6,event=Event1",0.325089,13,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision,"area=F6,event=Event1",0.007529,13,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_object,"area=F6,event=Event1",0.008727,13,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision x time,"area=F6,event=Event1",0.129566,13,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_object x time,"area=F6,event=Event1",0.255864,13,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision x object,"area=F6,event=Event1",0.010638,13,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision x object x time,"area=F6,event=Event1",0.262586,13,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_time,"area=F6,event=Event3",0.248258,13,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision,"area=F6,event=Event3",0.023197,13,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_object,"area=F6,event=Event3",0.006734,13,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision x time,"area=F6,event=Event3",0.153679,13,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_object x time,"area=F6,event=Event3",0.279668,13,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision x object,"area=F6,event=Event3",0.006695,13,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_var_decision x object x time,"area=F6,event=Event3",0.281769,13,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_n_units_total,session x event,68.0,68,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_per_unit.csv
+dpca_n_units_pkg_available,overall,0.0,68,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_per_unit.csv
+dpca_n_units,"area=AIP,event=Event1",4.0,4,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_n_units,"area=AIP,event=Event3",4.0,4,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_n_units,"area=F5,event=Event1",17.0,17,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_n_units,"area=F5,event=Event3",17.0,17,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_n_units,"area=F6,event=Event1",13.0,13,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+dpca_n_units,"area=F6,event=Event3",13.0,13,go-nogo/reworked_results/final_analysis/09_dpca/dpca_variance_summary.csv
+total_neurons,sum_over_sessions,355.0,48,go-nogo/inventory_neurons_by_session.csv
+total_neurons,area=AIP,86.0,4,go-nogo/inventory_neurons_by_session.csv
+total_neurons,area=F5,106.0,25,go-nogo/inventory_neurons_by_session.csv
+total_neurons,area=F6,163.0,19,go-nogo/inventory_neurons_by_session.csv
